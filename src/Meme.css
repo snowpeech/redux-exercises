@@ -1,0 +1,34 @@
+.Meme {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.Meme-text {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  margin: 10px;
+}
+
+#top {
+  position: absolute;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 6%;
+}
+
+.Meme img {
+  max-height: 600px;
+  max-width: 600px;
+}
+/* id:display >> class:meme >>class:meme-text border top
+                            >>class none.image
+                            >> class: meme-text border btm */
